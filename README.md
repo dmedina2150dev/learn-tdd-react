@@ -19,5 +19,8 @@ Caracteristicas:
 - __Zero configuration__ - Uno de los pilares de Jest es que no posea tantas configuraciones y sea facil de usar. Esto no significa que no pueda personalizarlo y configurarlo.
 - __Snapshots__ - Significa que nos brinda la estructura de un componente en cierto momento.
 - __Isolated__ - Nos permite ejecutar los test de forma independientes unos de otros y tambien de forma paralela.
-- __Code Coverage__ Información que nos provee Jest, sin la necesidad de instalar otras dependencias.
+- __Code Coverage__ Información que nos provee Jest, sin la necesidad de instalar otras dependencias. Con una bandera especial (--coverage) sobre que lineas de nuestro codigo esta siendo cubiertas por el Test.
+- __Easy Mocking__ Es posible crear Objetos Mock, que son una manera de reemplazar una implementación con un objeto replica fake.
+
+
 
