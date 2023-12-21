@@ -9,6 +9,63 @@ El Flujo de TDD:
  - (GREEN) Desarrollar la funcionalidad que cumpla el test y esta vez el test si pase o no falle. Es importante desarrollar lo minimo necesario para que el Test pase.
  - (ORANGE) En esta face detectamos codigo que se pueda mejorar, y solventar malas practicas. Y realizamos el refactor del codigo.
 
+# Introducción a las pruebas unitarias y de integración
+> Metodo AAA
+**Arrange ( Arreglar )**
+**Act ( Actuar )**
+**Assert ( Afirmar )**
+
+## Arrange
+> Preparamos el estado incial del sujeto a probar, (Inicializar variables, importaciones necesarias).
+
+## Act
+> Aplicamos acciones o estímulos al sujeto de prueba, (Llamamos metodos, simulamos click, realizar las acciones sobre el paso anterior).
+
+## Assert
+> Observar el comportamiento resultante de las acciones anteriores.
+
+### ¿Qué NO son?
+ - No son pérdida de tiempo
+
+**PRUEBAS UNITARIAS**
+> Enfocadas a pequeñas funcionalidades de la aplicación
+
+### Caracteristicas
+- Fáciles de escribir
+- Fáciles de leer
+- Confiables
+- Rápidas
+- Principalmente unitarias
+
+**PRUEBAS DE INTEGRACIÓN**
+> Enfocadas en cómo reaccionan varias piezas en conjunto
+
+
+### Caracteristicas
+- Fáciles de escribir
+- Fáciles de leer
+- Confiables
+- Rápidas
+- Principalmente unitarias
+
+### Mitos
+- Hacen que mi aplicación no tenga errores - los programadores nos podemos equivicar
+
+- Las pruebas no pueden fallar - Se pueden hacer pruebas que arrojen falsos positivos o falsos negativos.
+
+- Hacen más lenta mi aplicación - falso porque las pruebas corren en la maquina de desarrollo.
+
+- Es una perdida de tiempo - Solo se podria considerar una perdida de tiempo si hacemos pruebas de cosas que no tienen sentido probar. Como por ejemplo una libreria que importemos en nuestro proyecto. 
+
+- Hay que probar todo - No es necesario porque podria tomarnos el mismo tiempo que nos tomo hacer la aplicación, incluso hasta más.
+
+
+## CONFIGURACIÓN PARA VSCODE y tener ayuda de autocompletado 
+
+````
+yarn add -D @types/jest
+````
+
 # Jest
 
 Caracteristicas:
